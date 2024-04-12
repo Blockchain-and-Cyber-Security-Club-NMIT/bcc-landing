@@ -5,10 +5,10 @@ import RandomSquare from "./components/RandomSquare";
 
 function App() {
   return (
-    <div className="bg-black ">
-      <Hero />
+    <div className='bg-black '>
+      <Navbar />
       <RandomSquare img={img} />
-      <div className="w-full h-[10vw]"></div>
+      <Hero />
     </div>
   );
 }
