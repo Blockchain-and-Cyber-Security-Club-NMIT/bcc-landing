@@ -1,4 +1,5 @@
 import "./App.css";
+import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import img from "./assets/nosu.jpg";
 import RandomSquare from "./components/RandomSquare";
