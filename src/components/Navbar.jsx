@@ -13,7 +13,7 @@ function Navbar() {
       <motion.button
        onClick={()=> setActive((pev)=> !pev)}
        animate = {active ? "open" : "close"}
-       className='absolute right-2 z-10 h-full w-14 lg:w-[4.5vw] pointer-events-auto '>
+       className='absolute right-2 z-[11] h-full w-14 lg:w-[4.5vw] pointer-events-auto '>
         <motion.span
           style={{
             top: "30%",
@@ -78,9 +78,9 @@ function Navbar() {
       }}
       transition={{ type: "spring" , duration:0.7 }}
 
-      className=' h-[100vh] rounded-xl bg-zinc-400/30 backdrop-blur-sm  w-2/3 lg:w-1/3 absolute top-0 right-0 px-[3vw] py-[4vw] pointer-events-auto '>
+      className=' h-[100vh] rounded-xl bg-zinc-400/30 backdrop-blur-sm  w-2/3 lg:w-1/3 absolute top-0 z-10 right-0 px-[3vw] py-[4vw] pointer-events-auto '>
         <Button content={"About Us"}/>
-        <Button content={"Events"}/>
+        <Button content={"Events"} addr = {"#events"}/>
         <Button content={"Our Team"}/>
         <Button content={"Contact Us"}/>
       </motion.div>
