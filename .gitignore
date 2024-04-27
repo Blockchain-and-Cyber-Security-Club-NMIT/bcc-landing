@@ -16,6 +16,7 @@ dist-ssr
 .vscode/*
 !.vscode/extensions.json
 .idea
+# Mac Nuisances
 .DS_Store
 *.suo
 *.ntvs*
