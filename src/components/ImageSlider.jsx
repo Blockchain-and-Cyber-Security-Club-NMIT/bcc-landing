@@ -65,7 +65,8 @@ const content = [
 
   return (
     // SliderBody
-    <div id='events' className=' w-[80%] h-[90vh] m-auto my-16 relative text-white rounded-2xl'>
+    <div id='events' className=' w-[80%] h-[85vh] m-auto my-16 relative text-white rounded-2xl'>
+      <h1 className=' text-center text-6xl font-bold my-14'>Events</h1>
       <img className='absolute w-full h-full bg-cover rounded-2xl ' src={images[currentImageIndex]} alt="" />
       <div className='absolute bg-black/50 z-[9] w-full h-full'>
       {/* mainBody */}
