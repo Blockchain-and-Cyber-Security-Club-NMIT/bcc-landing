@@ -68,8 +68,8 @@ function ImageSlider() {
   return (
     // SliderBody
     <>
-    <h1 className='text-white text-center text-6xl font-bold mb-14'>Events</h1>
-      <div id='events' className=' w-[80%] h-[90vh] m-auto my-16 relative text-white rounded-2xl'>
+    <h1 id='events' className='text-white text-center text-6xl font-bold'>Events</h1>
+      <div className=' w-[80%] h-[90vh] m-auto my-4 relative text-white rounded-2xl'>
         <img className='absolute top-0 left-0 w-full h-full bg-cover rounded-2xl ' src={images[currentImageIndex]} alt="" />
         <div className='absolute top-0 left-0 bg-black/50 z-[9] w-full h-full'>
           {/* mainBody */}

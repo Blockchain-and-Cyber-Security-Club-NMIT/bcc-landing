@@ -23,8 +23,8 @@ function Card({ value, index }) {
     };
 
     const heightVariants = {
-        short: { height: '300px' },
-        expanded: { height: '380px' }
+        short: { height: '330px' },
+        expanded: { height: '390px' }
     }
 
     const [isHovered, setIsHovered] = useState(false);
@@ -36,7 +36,7 @@ function Card({ value, index }) {
             animate={isHovered ? 'expanded' : 'short'}
             variants={heightVariants}
             transition={{ duration: 0.4 }}
-            className='bg-white/50 backdrop-blur-sm rounded-lg shadow-lg w-[250px] h-[350px] p-6 absolute pointer-events-auto'
+            className='bg-white/30 backdrop-blur-sm rounded-lg shadow-lg w-[250px] p-6 absolute pointer-events-auto'
             style={{
                 top: `${index % 2 == 0 ? 0 : 200}px`,
                 left: `${index * 260}px`,
@@ -44,7 +44,7 @@ function Card({ value, index }) {
             <img
                 src={image}
                 alt="Card Image"
-                className="w-full h-[14vw] rounded-lg"
+                className="w-full h-[15vw] rounded-lg"
             />
             <div className="mt-4 text-center">
                 <h2 className="text-xl font-semibold">{name}</h2>
