@@ -81,7 +81,7 @@ function Navbar() {
       className=' h-[100vh] rounded-xl bg-zinc-400/30 backdrop-blur-sm  w-2/3 lg:w-1/3 absolute top-0 z-10 right-0 px-[3vw] py-[4vw] pointer-events-auto '>
         <Button content={"About Us"} addr = {"#home"}/>
         <Button content={"Events"} addr = {"#events"}/>
-        <Button content={"Our Team"}/>
+        <Button content={"Our Team"} addr= {"#team"}/>
         <Button content={"Contact Us"}/>
       </motion.div>
 

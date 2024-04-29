@@ -5,6 +5,7 @@ import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import ImageSlider from "./components/ImageSlider";
 import Spline from '@splinetool/react-spline';
+import Faculty from "./components/Faculty";
 
 function App() {
   const [isLoading, setIsLoading] = useState(true); // Initial state is loading
@@ -39,6 +40,7 @@ function App() {
           <Navbar />
           <Hero onLoad={handleLoad} />
           <ImageSlider />
+          <Faculty />
         </div>
       </div>
 
